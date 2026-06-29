@@ -1,6 +1,7 @@
-# 📊 UFID Sales Dashboard
+# 🚀 ZullyScale — Sales Analytics Landing Page
 
-> A high-performance Sales Analytics Dashboard built with **React 19**, **Vite 8**, and **Tailwind CSS v4** — featuring a modern component architecture and sleek dark mode aesthetics.
+> **"Close 40% more deals before your morning coffee."**
+> A high-performance SaaS landing page for ZullyScale, built with **React 19**, **Vite 8**, and **Tailwind CSS v4**.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&style=flat-square)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white&style=flat-square)
@@ -9,14 +10,24 @@
 
 ---
 
+## 🖼 Preview
+
+![ZullyScale Preview](./public/preview.png)
+
+> _ZullyScale v4.0 is live — real-time pipeline analytics, automated lead scoring, and instant forecasting in one beautiful dashboard._
+
+---
+
 ## ✨ Features
 
-- 📈 Real-time sales analytics and KPI tracking
-- 🌑 Dark mode aesthetics with polished UI
-- ⚡ Blazing fast dev & build pipeline via Vite 8
-- 🧩 Modular, reusable React component architecture
+- 🎯 Conversion-focused hero section with bold, punchy copy
+- 🌑 Dark mode aesthetic with gradient typography
+- ⚡ Blazing fast performance powered by Vite 8
+- 📱 Fully responsive layout across all screen sizes
+- 🧩 Modular React component architecture
 - 🎨 Utility-first styling with Tailwind CSS v4
-- 🔍 ESLint configured with React Hooks & React Refresh rules
+- 🔗 Navigation with Home, Features, Pricing, and Docs sections
+- 🛡 Trust signals — 14-day free trial · No credit card required · Setup in 60 seconds
 
 ---
 
@@ -24,10 +35,9 @@
 
 ```
 sales-dashboard/
-├── public/             # Static assets
-├── src/                # Application source
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Dashboard views/pages
+├── public/             # Static assets & preview image
+├── src/
+│   ├── components/     # Reusable UI components (Navbar, Hero, Footer, etc.)
 │   ├── assets/         # Images, icons, fonts
 │   └── main.jsx        # App entry point
 ├── index.html
@@ -43,7 +53,7 @@ sales-dashboard/
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) v18+
-- npm v9+ or yarn
+- npm v9+
 
 ### Installation
 
@@ -62,7 +72,7 @@ npm install
 npm run dev
 ```
 
-Starts the dev server at `http://localhost:5173` with Hot Module Replacement (HMR).
+Starts the dev server at `http://localhost:5173` with Hot Module Replacement.
 
 ### Build for Production
 
@@ -70,7 +80,7 @@ Starts the dev server at `http://localhost:5173` with Hot Module Replacement (HM
 npm run build
 ```
 
-Output is generated in the `dist/` folder, optimised and ready to deploy.
+Outputs an optimised build to the `dist/` folder.
 
 ### Preview Production Build
 
@@ -88,30 +98,48 @@ npm run lint
 
 ## 🛠 Tech Stack
 
-| Tool                                                                | Version | Purpose                  |
-| ------------------------------------------------------------------- | ------- | ------------------------ |
-| [React](https://react.dev/)                                         | 19      | UI framework             |
-| [Vite](https://vite.dev/)                                           | 8       | Build tool & dev server  |
-| [Tailwind CSS](https://tailwindcss.com/)                            | v4      | Utility-first styling    |
-| [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) | 6       | React + Oxc fast refresh |
-| [ESLint](https://eslint.org/)                                       | 10      | Code linting             |
+| Tool | Version | Purpose |
+|------|---------|---------|
+| [React](https://react.dev/) | 19 | UI framework |
+| [Vite](https://vite.dev/) | 8 | Build tool & dev server |
+| [Tailwind CSS](https://tailwindcss.com/) | v4 | Utility-first styling |
+| [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) | 6 | React fast refresh via Oxc |
+| [ESLint](https://eslint.org/) | 10 | Code linting |
 
 ---
 
 ## 📦 Available Scripts
 
-| Script            | Description              |
-| ----------------- | ------------------------ |
-| `npm run dev`     | Start local dev server   |
-| `npm run build`   | Production build         |
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start local dev server |
+| `npm run build` | Production build |
 | `npm run preview` | Preview production build |
-| `npm run lint`    | Run ESLint checks        |
+| `npm run lint` | Run ESLint checks |
+
+---
+
+## 🌐 Live Demo
+
+> 🔗 _Coming soon _
+
+To deploy on Vercel:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+To deploy on Netlify:
+
+```bash
+npm run build
+# drag and drop the dist/ folder on netlify.com
+```
 
 ---
 
 ## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
@@ -119,13 +147,11 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
 
-Please ensure your code passes linting before submitting.
-
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ---
 
