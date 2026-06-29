@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>UFID – wordmark</title>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D87A"/>
+      <stop offset="50%" stop-color="#E8B84B"/>
+      <stop offset="100%" stop-color="#C8922A"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1424"/>
+      <stop offset="100%" stop-color="#1E2A4A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="124" height="124" rx="26" fill="none" stroke="#E8B84B" stroke-width="2" opacity="0.7"/>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bg)"/>
+  <text x="64" y="74" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="34" font-weight="700"
+        fill="url(#gold)" letter-spacing="3">UFID</text>
+  <rect x="28" y="84" width="72" height="1" rx="0.5" fill="url(#gold)" opacity="0.4"/>
+</svg>
